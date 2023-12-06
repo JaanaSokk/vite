@@ -9,4 +9,14 @@ $theme-colors: (
   "secondary": $secondary,
 );
 
+
+
+$brand: (
+  "brand": #1a134f
+);
+
+
+$theme-colors: map-merge($theme-colors, $brand);
+
 @import "bootstrap/scss/bootstrap";
+
